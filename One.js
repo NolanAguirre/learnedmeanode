@@ -10,4 +10,9 @@ app.get('/', function (req, res) {
     }
   res.sendFile('index.html', options)
 })
+app.post('/', function(req, res){
+    console.log('post request recieved')
+    res.set('Content-Type', 'text/html');
+    res.send('hello world');
+})
 app.listen(3000)
