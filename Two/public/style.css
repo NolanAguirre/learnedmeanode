@@ -1,0 +1,16 @@
+.header{
+    height: 150;
+    background-color: yellow;
+}
+.nav-bar{
+    height: 100;
+    background-color: red;
+}
+.main-body{
+    height: 500;
+    background-color: purple;
+}
+.footer{
+    height: 100;
+    background-color: black;
+}

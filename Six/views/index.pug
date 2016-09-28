@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+        </title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body ng-app="myapp">
+        <div class='header'>
+            <h1>Node Test Server</h1>
+        </div>
+        <div class='nav-bar'>
+            <div>yomate</div>
+            <div>clickme</div>
+            <div>youknowyouwanna</div>
+        </div>
+        <div class='main-body' ng-controller="controller as vm">
+            <button ng-click="vm.post()"> Post request</button>
+            <button ng-click="vm.put()"> Put request</button>
+            <button ng-click="vm.delete()"> Delete request</button>
+            <button ng-click="vm.head()"> Head request</button>
+            <button ng-click="vm.get()"> Get request</button>
+        </div>
+        <div class='footer'>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src ="script.js"></script>
+    </body>
+</html>
